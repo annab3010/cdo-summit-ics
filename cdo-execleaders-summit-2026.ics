@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Almaty
+LAST-MODIFIED:20260721T092906Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Asia/Almaty
+X-LIC-LOCATION:Asia/Almaty
+BEGIN:STANDARD
+TZNAME:+05
+TZOFFSETFROM:+0500
+TZOFFSETTO:+0500
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20261110T181557Z
+UID:1794331381903-78347@ical.marudot.com
+DTSTART;TZID=Asia/Almaty:20261127T090000
+DTEND;TZID=Asia/Almaty:20261127T180000
+SUMMARY:CDO ExecLeaders Summit 2026
+URL:https://go.2gis.com/ZXcT5
+DESCRIPTION:CDO ExecLeaders Summit 2026\nЗа пределами данных: построение компании\, ориентированной на ИИ\n\nНачало регистрации: \n27 ноября 2026 в 9:00\n\nМесто проведения:\nGorky Park Residence\, Конгресс-холл\nг. Алматы\, ул. Гоголя\, 1 \n\nПрограмма будет опубликована на сайте мероприятия:\nhttps://www.apple-events.com/events/cdo-summit-2026
+LOCATION:г. Алматы\, Gorky Park Residence
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CDO ExecLeaders Summit 2026
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CDO ExecLeaders Summit 2026
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
